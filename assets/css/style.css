@@ -12,7 +12,8 @@
 body {
   /* font-family: "Open Sans", sans-serif; */
   /* font-family: 'Poppins', sans-serif; */
-  font-family: 'Sen', sans-serif;
+  /* font-family: 'Sen', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
 
   color: #313030;
 }
@@ -33,7 +34,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Sen", sans-serif;
+  /* font-family: "Sen", sans-serif; */
+  font-family: 'Montserrat', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -192,7 +194,8 @@ h6 {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-size: 14px;
-  font-family: "Sen", sans-serif;
+  /* font-family: "Sen", sans-serif; */
+  font-family: 'Montserrat', sans-serif;
   color: #635551;
   white-space: nowrap;
   transition: 0.3s;
@@ -430,7 +433,7 @@ h6 {
 
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 56px;
   color: #fff;
@@ -454,7 +457,8 @@ h6 {
 }
 
 #hero .btn-get-started {
-  font-family: "Sen", sans-serif;
+  /* font-family: "Sen", sans-serif; */
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 1px;
@@ -532,7 +536,8 @@ section {
   font-weight: 500;
   margin-bottom: 20px;
   padding-bottom: 0;
-  font-family: "Sen", sans-serif;
+  /* font-family: "Sen", sans-serif; */
+  font-family: 'Montserrat', sans-serif;
   color: #635551;
 }
 
@@ -819,15 +824,20 @@ section {
 }
 
 .clients .swiper-slide img {
-  opacity: 0.7;
+  opacity: 1;
   /* filter: grayscale(100%); */
 }
 
 .clients .swiper-slide img:hover {
   filter: none;
-  opacity: 1;
+  /* opacity: 1; */
+  filter: grayscale(100%);
 }
 
+.partnerships img {
+  width: 180px;
+  margin: 20px;
+}
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -1336,7 +1346,8 @@ section {
   font-size: 36px;
   color: #ff5821;
   font-weight: 600;
-  font-family: "Sen", sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
   margin-bottom: 20px;
 }
 
@@ -1392,7 +1403,7 @@ section {
   transition: none;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Sen", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   box-shadow: 0 3px 7px rgba(255, 88, 33, 0.4);
   transition: 0.3s;
@@ -1447,7 +1458,7 @@ section {
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: "Sen", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -2161,7 +2172,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Sen", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #111;
 }
 
